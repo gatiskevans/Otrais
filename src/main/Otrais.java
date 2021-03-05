@@ -10,7 +10,7 @@ public class Otrais {
         //Klases nosaukums pēc tam objekta nosaukums vienāds ar new komandu un klases nosaukums
         Otrais mansObjekts = new Otrais();
 
-        //Izdrukās laikā objektu, kur int x paķerts no klases, jo objekti manto klases mainīgos
+        //Izdrukās laukā objektu, kur int x paķerts no klases, jo objekti manto klases mainīgos
         System.out.println(mansObjekts.x);
 
         //Var izveidot arī vairākus objektus vienā klasē
@@ -39,6 +39,6 @@ public class Otrais {
         //Var izmantot cik daudz atribūtus vēlas
         Divi objekts5 = new Divi();
         System.out.println("Mans vārds ir " + objekts5.vards + " " + objekts5.uzvards + " un man ir " + objekts5.a + " gadu.");
-        
+
     }
 }
