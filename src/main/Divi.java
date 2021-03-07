@@ -10,4 +10,14 @@ public class Divi {
     String vards = "Jānis";
     String uzvards = "Bērziņš";
 
+    //Statiskajai metodei var piekļūt neizveidojot objektu
+    static void manaMetode(){
+        System.out.println("Statiskā metode");
+    }
+
+    //Publiskajai metodei var piekļūt tikai, ja tiek izveidots objekts
+    public void publiskaMetode(){
+        System.out.println("Publiskā metode");
+    }
+
 }

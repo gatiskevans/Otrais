@@ -40,5 +40,16 @@ public class Otrais {
         Divi objekts5 = new Divi();
         System.out.println("Mans vārds ir " + objekts5.vards + " " + objekts5.uzvards + " un man ir " + objekts5.a + " gadu.");
 
+        //Static metodēm var piekļūt neizveidojot objektu
+        //Lai izsauktu metodi no citas klases, vienkārši priekšā norādīt klases nosaukumu, tad . un metodes nosaukums
+        Divi.manaMetode();      //Metode manaMetode(); atrodas failā Divi.java
+
+        //Lai piekļūtu public metodēm ir jāizveido objekts
+        //Divi.publiskaMetode(); Šāds kods izmetīs error, jo metode norādīta kā publiskā
+        Divi publiskaisObjekts = new Divi();
+        publiskaisObjekts.publiskaMetode();
+
+
+
     }
 }
