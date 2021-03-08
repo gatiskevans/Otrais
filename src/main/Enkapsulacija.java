@@ -12,5 +12,6 @@ public class Enkapsulacija {
     //Klašu atribūti var tikt uztaisīti kā read-only (ja izmanto tikai get metodi), vai write-only (ja izmanto set)
     //Elastīgs. Programmētājs var mainīt tikai vienu daļu koda, neaizskarot pārējās daļas.
     //Uzlabota datu drošība
+    
 
 }
