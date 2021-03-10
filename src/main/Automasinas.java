@@ -13,7 +13,7 @@ class Automasinas {
      */
 
     protected String brends = "Hyundai";    //Automasinas atribūts
-    //Atribūts ir azīmēts kā protected. Ja tas būtu kā provate, tad klase Masina nespētu piekļūt šim atribūtam
+    //Atribūts ir azīmēts kā protected. Ja tas būtu kā private, tad klase Masina nespētu piekļūt šim atribūtam
 
     public void taure() {
         System.out.println("Beep, beep!");  //Automasinas metode
