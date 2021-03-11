@@ -50,7 +50,7 @@ class Karbonara implements Edieni {
     - Kad veic implements interface klasei, tad visas metodes ir jāpārraksta
     - Interface metodes pēc noklusējuma jau ir abstract un public
       (tāpēc brīdinājums par redundant public 20. un 21.rindā).
-    - Inteface atrobūti pēc noklusējuma ir public, abstract un final.
+    - Inteface atribūti pēc noklusējuma ir public, abstract un final.
     - Interface nevar saturēt konstruktoru (tāpēc ka to nevar izmantot, lai izveidotu objektus).
  */
 
