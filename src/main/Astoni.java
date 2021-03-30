@@ -52,4 +52,5 @@ public class Astoni {
 
     //Lai izveidotu package, izmanto package atslēgasvārdu
 
+
 }
